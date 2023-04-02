@@ -12,3 +12,5 @@
 3b2. Berbeda dengan private dan protected , jika kita menggunakan public maka properti bisa diakses dari mana saja. Maka kali ini tidak terjadi error pada kode lat4.3
 3c. Jika ingin mengakses properti private dari luar kelas, kita bisa menggunakan method setter dan getter yang sudah ada di dalam kelas Mahasiswa, selanjutnya mengganti pemanggilan properti dari luar kelas yang semula memanggil langsung properti, menjadi memanggil dengan menggunakan method setter dan getter seperti pada gambar sebelah kanan.
 3d. Kesimpulan Lat4_3 : Dengan menggunakan Modifier protected dan private, kita bisa melindungi properti milik sebuah class dari akses dari luar kelas yang tidak diinginkan
+
+4. Kelas Asisten mewarisi semua properti dan method dari kelas Mahasiswa. Jadi meski tidak mengisi properti nama dan method setter dan getter nama pada kelas Asisten, PHP dapat menjalankan perintah setter dan getter dari kelas Asisten dan tidak terjadi error.
