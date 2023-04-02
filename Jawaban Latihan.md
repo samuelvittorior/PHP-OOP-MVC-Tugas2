@@ -14,3 +14,7 @@
 3d. Kesimpulan Lat4_3 : Dengan menggunakan Modifier protected dan private, kita bisa melindungi properti milik sebuah class dari akses dari luar kelas yang tidak diinginkan
 
 4. Kelas Asisten mewarisi semua properti dan method dari kelas Mahasiswa. Jadi meski tidak mengisi properti nama dan method setter dan getter nama pada kelas Asisten, PHP dapat menjalankan perintah setter dan getter dari kelas Asisten dan tidak terjadi error.
+
+5a. Tampilan Menampilkan Hasil dari instansiasi Kelas Sarjana dan Kelas Magister yang mewarisi kelas abstrak Mahasiswa beserta method abstrak getTugasAkhir milik kelas Mahasiswa yang wajib diimplementasikan pada kelas-kelas turunannya. Tidak ada error yang ditampilkan.
+ 5b. Apabila baris 29-32 yang berisi method abstrak getTugasAkhir() dihapus, maka akan tampil error karena di dalam kelas Magister wajib mengimplementasikan 1 method abstrak dari kelas abstrak Mahasiswa yaitu getTugasAkhir() yang dihapus kali ini.
+5c. Kesimpulan Lat4_5 : Apabila kita menggunakan kelas abstrak, maka kita wajib memperhatikan satu method abstrak yang harus diimplementasikan pada kelas-kelas turunannya.
